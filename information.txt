@@ -1,0 +1,7 @@
+Install Required Packages
+
+Install Guzzle, which is usually included in Laravel by default:
+composer require guzzlehttp/guzzle
+
+Optionally, install Symfony DomCrawler for easier HTML parsing:
+composer require symfony/dom-crawler symfony/css-selector
